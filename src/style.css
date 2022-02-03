@@ -1,60 +1,67 @@
-#header{
-    background-color: #D3D3D3;
-    padding-left: -16px;
-    /* height: 107px; */
+body{
+    margin: 0.2%;
+    padding: 0;
 }
-#header h1{
-padding-top: 18px;
-padding-left: 28px;
-text-si
-
+#logo{
+    background-color:#E0E0E0;
+    font-weight: bolder;
+    font-size: 2em;
+    padding: 1%;
 }
-#content h1{
-    color: #006699;
-}
-#side-bar {
-float: right;
-
-}
-
-ul{
-    list-style-type: none;
-    margin-left: 0px;
-    padding-left: 0px;
-  
-}
-nav{
+#headerNav{
     overflow: hidden;
+}
+#navbar{
+    width:100%;
+    background-color: #333333;
+    height:2.13em;
+}
+#nav-link{
+    display: inline;
     list-style: none;
-    margin-left: 0px;
-    background-color:#a08d8d;
-    text-decoration: none;   
+    width:100%;
 }
-li{
-     /* float: left;
-    margin: 5px 15px 5px 0px;
-    color:#D3D3D3 ;
-    border-left: 2px solid #D3D3D3;  */
 
-    
-    
-    float: left;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    
-    
-}
-a{
-    color: #D3D3D3;
+#nav-link li a{
     text-decoration: none;
-    border-right: 2px solid white;
-    padding: 20px 21px 11px 7px;
-    margin-left: 0px;
-
+    color: white;
+    font-size: 1em;
+}
+#nav-link li{
+    float: left;
     
+    color: white;
+    padding: 0.5em;
+    border-right:1px white solid;
 }
 
-  
-  li a:hover {
+#main{
+    margin-left: 2%;
+    overflow: hidden;
+    clear: both;
+}
+#content{
+    float: left;
+    width: 65%;
+    text-align: justify;
+
+}
+#right-section{
+    float:right;
+    width: 30%;
+    background-color: #E0E0E0;
+    padding-top: 1%;
+    padding-left:2%;
+    padding-right: 2%;
+    padding-bottom: 17.5%;
+}
+#footer{
+    text-align: right;
+    background-color: #CCCCCC;
+    padding:0.7em;
+}
+.heading-color{
+    color:#003D60;
+}
+li a:hover {
     background-color: green;
-  }
